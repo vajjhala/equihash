@@ -1,0 +1,9 @@
+Requirements:
+1) amortisation free: Producing x outputs for an algorithm is x times expensive.
+2) steep time-space tradeoff
+3) bandwidth hard in case of parallel implementation: communication in parallel computations causes bottleneck
+4) computationally hard (time)
+5) memory hard (space)
+
+These requirements are hard to satisfy simultaneously. The k-XOR problem o the generalised-birthday problem satisfies these properties and the tradeoff can be manipulated by tweaking k.
+
