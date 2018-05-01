@@ -27,11 +27,12 @@ func (h hArrays) Len() int {
 }
 
 func SafeXORBytes(a, b []byte) []byte {
+
 	n := len(a)
-	dest := []byte{}
 	if len(b) < n {
 		n = len(b)
 	}
+	dest := make([]byte, n)
 	for i := 0; i < n; i++ {
 		dest[i] = a[i] ^ b[i]
 	}
