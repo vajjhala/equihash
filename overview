@@ -1,6 +1,6 @@
 Requirements:
 1) amortisation free: Producing x outputs for an algorithm is x times expensive.
-2) steep time-space tradeoff
+2) steep time-space trade-off
 3) bandwidth hard in case of parallel implementation: communication in parallel computations causes bottleneck
 4) computationally hard (time)
 5) memory hard (space)
