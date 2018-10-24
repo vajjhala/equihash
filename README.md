@@ -7,6 +7,6 @@ Equihash is an asymmetric proof of work based on a computationally hard problem 
 
 Equihash is based on the generalised birthday problem whose solution is given by Wagner's algorithm
 
-The user is asked to provide the the parameters n, k and d. Where n is the length of the bit string. 2^k are the number of hashes that are XORed to zero. And d is difficulty filter.
+The user is asked to provide the the parameters n, k and d. Where n is the length of the bit string. 2^k are the number of hashes that are XORed to zero. And d is the difficulty filter.
 
 Install the Go package and simply run the binary as: `equihash ‐n 48 ‐k 5 ‐d 5` to see the program in action.
